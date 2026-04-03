@@ -1,0 +1,122 @@
+{
+  "categories": {
+    "Billing": [
+      "invoice",
+      "billing",
+      "charge",
+      "charged",
+      "payment",
+      "refund",
+      "subscription",
+      "plan"
+    ],
+    "Technical": [
+      "error",
+      "bug",
+      "crash",
+      "down",
+      "failed",
+      "timeout",
+      "latency",
+      "broken",
+      "exception"
+    ],
+    "Account": [
+      "login",
+      "sign in",
+      "password",
+      "account",
+      "locked",
+      "verify",
+      "2fa",
+      "authentication"
+    ],
+    "Feature Request": [
+      "feature",
+      "request",
+      "enhancement",
+      "improvement",
+      "add support",
+      "would like",
+      "please add"
+    ]
+  },
+  "urgency_terms": [
+    "urgent",
+    "asap",
+    "immediately",
+    "critical",
+    "down",
+    "outage",
+    "blocked",
+    "cannot",
+    "can't",
+    "security breach"
+  ],
+  "severity_terms": {
+    "P0": [
+      "outage",
+      "production down",
+      "data loss",
+      "security breach",
+      "breach",
+      "ransomware"
+    ],
+    "P1": [
+      "cannot login",
+      "can't login",
+      "payment failed",
+      "service down",
+      "high impact"
+    ],
+    "P2": [
+      "slow",
+      "latency",
+      "intermittent",
+      "issue",
+      "error"
+    ],
+    "P3": [
+      "question",
+      "feature",
+      "nice to have",
+      "minor"
+    ]
+  },
+  "custom_rules": {
+    "security_override": {
+      "keywords": [
+        "security",
+        "breach",
+        "hacked",
+        "unauthorized access",
+        "leak"
+      ],
+      "set_category": "Technical",
+      "set_priority": "P0",
+      "reason": "Security-related incidents are always treated as critical."
+    }
+  },
+  "keyword_extraction": {
+    "min_word_length": 4,
+    "max_keywords": 8,
+    "stopwords": [
+      "this",
+      "that",
+      "with",
+      "from",
+      "have",
+      "your",
+      "please",
+      "there",
+      "about",
+      "would",
+      "could",
+      "should",
+      "when",
+      "what",
+      "where",
+      "which"
+    ]
+  }
+}

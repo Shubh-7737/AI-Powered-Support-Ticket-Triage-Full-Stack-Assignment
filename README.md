@@ -167,11 +167,3 @@ I added a custom `security_override` rule because security incidents deserve con
 - authentication, pagination, and better DB normalization for production-scale use
 - optional active-learning feedback loop to tune rules from human corrections
 
-## Demo Video Checklist (2-5 mins)
-- Start app with `docker-compose up --build`
-- Submit at least 3 tickets from UI
-- Show result panel fields
-- Show recent tickets list updating
-- Demonstrate custom rule:
-  - example input: `"Possible unauthorized access and data leak detected"`
-  - expected output includes `priority: P0` and security override signal
